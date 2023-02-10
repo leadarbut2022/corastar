@@ -1,0 +1,35 @@
+.col-12:first-of-type{
+           
+}
+.col-12:last-of-type{
+    
+}
+button{
+ 
+    position: relative;
+   
+    border: 1px solid cornflowerblue;;
+    padding: 8px;
+    font-size: 12px;
+    margin: -2px;
+    top: 11px;
+   width: 50%;
+        
+}
+.a_tag{
+    position: relative;
+    width: auto;
+    text-align: center;
+    margin: auto;
+   
+    
+    right: 0px;
+   
+    height: 34px;
+    padding: 0px;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}

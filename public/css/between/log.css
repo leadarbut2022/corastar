@@ -1,0 +1,28 @@
+.col-12:first-of-type{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+.col-12:last-of-type{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.a_tag{
+    position: relative;
+  
+    margin-top: 54px;
+    right: -62px;
+
+}
+a{
+
+color: black;
+text-decoration: none;
+
+}
+
+a:hover{
+color: black;
+text-decoration: none;
+}

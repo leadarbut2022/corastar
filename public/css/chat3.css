@@ -1,0 +1,199 @@
+
+.chat{
+    position: fixed;
+    border-radius: 10%;
+    right: 4%;
+    width: 300px;
+    border: 2px solid #eee;
+    height: 351px;
+    box-shadow: 2px 2px #fff;
+    padding: 2px;
+    bottom: -90%;
+    background-color: #fff;
+    transition: 1s all;
+    animation-name: chat;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+@keyframes chat {
+    0%   {bottom: -90%;}
+    25%  {bottom: -60%;}
+    50%  {bottom: -30%;}
+    100% {bottom: 10%;}
+  }
+
+
+
+.chat .chat2{
+    border: 1px solid #fff;
+    height: 100%;
+    overflow: scroll;
+    overflow: hidden;
+}
+
+.chat .chat2 .msg{
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+   
+}
+
+.msg .m{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.msg .m .m1{
+    
+}
+.msg .m .m1{
+    
+}
+
+.chat .chat2 .msg p{
+    line-height: 23px;
+    margin: 0px;
+}
+.chat .chat2 .msg small{
+
+    
+}
+
+.time{
+    text-align: center;
+  height: auto;
+  width: auto;
+  display: flex;
+  font-size: 12px;
+ 
+  align-content: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.t{
+    width: 60px;
+border: 1px solid #eee;
+border-radius: 14%;
+}
+
+
+.msg .a1{
+    width: auto;
+    height: auto;
+    background-color: #eee;
+    margin: 4px;
+    padding: 1px;
+    padding: 5px 4px;
+    font-size: 12px;
+    border: 1px solid #eee;
+
+}
+.msg .a2{
+    width: auto;
+    height: auto;
+    border: 1px solid #eee;
+    margin: 4px;
+    padding: 1px;
+    padding: 5px 4px;
+    font-size: 12px;
+    background-color: rgb(102, 102, 102);
+
+}
+
+.form button{
+    
+
+
+border-top:1px solid lightcyan ;
+border-bottom:1px solid lightcyan;
+border-left: 1px solid lightcyan; 
+border-right: none;
+position: absolute;
+
+
+
+
+width: 38px;
+padding: 0px;
+margin: 0px;
+background-color: white;
+height: 33px;
+left: 0px;
+top: 0px;
+z-index: 1;
+}
+
+.form input{
+    
+    padding: 0px;
+    float: left;
+    margin: 0px;
+      margin-left: 0px;
+    height: 34px;
+    text-align: right;
+    width: 81%;
+    border: lightcyan;
+      border-top-color: lightcyan;
+      border-top-style: none;
+      border-top-width: medium;
+    border-top: 1px solid;
+    margin-left: 39px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form{
+    width: 100%;
+    position: absolute;
+bottom: 0px;
+}
+
+.form form{
+    padding-right:6px ;
+    width: 100%;
+}
+
+@media  screen and (max-width: 776px){
+  
+
+
+    .chat{
+        
+        
+        right: -19%;
+        width: 300px;
+        border: 2px solid #fff;
+        height: 351px;
+        box-shadow: 2px 2px #fff;
+        padding: 2px;
+        bottom: -90%;
+        background-color: #fff;
+        transition: 1s all;
+        animation-name: chat;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        display: block;
+        position: relative;
+    }
+
+    .div_icon {
+        
+        top: 0%;
+right: 0%;
+display: inline-block;
+margin: auto;
+position: relative;
+width: 100%;
+align-items: center;
+text-align: center;
+padding: 13px;
+    }
+}
