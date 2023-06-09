@@ -26,6 +26,7 @@ use Illuminate\Support\Facades\Password;
 |
 */
 
+    // Route::get('/',function () { return view('welcome');})->name('/'); 
     Route::get('/', [AdminController::class, 'neshed'])->name('/'); 
      Route::get('/tabls', function () { return view('home/table');})->name('tabls');
      Route::get('/gols', function () { return view('home/gols');})->name('gols');
@@ -100,7 +101,7 @@ Route::get('signoutSeler', [SelerController::class, 'signOut'])->name('signoutSe
 
 Route::post('registrationSeler', [SelerController::class, 'store'])->name('registrationSeler'); 
 
-Route::group(['middleware' =>['AuthselerUser'] ],function (){
+// Route::group(['middleware' =>['AuthselerUser'] ],function (){
     Route::get('create_prodects', [SelerController::class, 'create_prodects'])->name('create_prodects');
     Route::get('profile_seler', [SelerController::class, 'profile'])->name('profile_seler'); 
     Route::get('all_u_post', [SelerController::class, 'show_all_prodects_seler_post'])->name('all_u_post');
@@ -114,7 +115,7 @@ Route::group(['middleware' =>['AuthselerUser'] ],function (){
     
     
     
-});
+// });
 
 /********* seler ****************************************************************************************/
 
