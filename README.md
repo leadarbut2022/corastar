@@ -3,7 +3,7 @@ corastar
 
 A news site and a sports store, and it also displays the results of the matches
 
-link  :- https://www.corastar.site/
+link  :- https://www.corastar.site
 ![Example Image](./Screenshot from 2023-06-09 19-20-20.png)
 ![Example Image](./Screenshot from 2023-06-09 19-21-06.png)
 ![Example Image](./Screenshot from 2023-06-09 19-21-11.png)
